@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import './index.css'
 
 import { rhythm, scale } from '../utils/typography'
 
@@ -38,7 +39,6 @@ class Template extends React.Component {
       header = (
         <h3
           style={{
-            fontFamily: 'Montserrat, sans-serif',
             marginTop: 0,
             marginBottom: rhythm(-1),
           }}
